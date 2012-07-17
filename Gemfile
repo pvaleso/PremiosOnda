@@ -22,7 +22,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'twitter-bootstrop-rails'
-  gem 'less-rails-bootstrop'
+  gem 'less-rails-bootstrap'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
