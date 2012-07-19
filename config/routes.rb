@@ -1,4 +1,11 @@
 Premiosonda::Application.routes.draw do
+  get "pantallas/index"
+
+  match 'auth/:provider/callback', to: 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
+  #match 'pantallas=>pantallas#index'
+ root :to =>'pantallas#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
