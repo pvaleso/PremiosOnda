@@ -9,9 +9,9 @@
 </head>
 <body>
  <header>
-    <%=image_tag("logo.png") %>
+  <!--  <%=image_tag("logo.png") %> -->
  </header>
- 
+ <%= yield %>
  <div id="user_nav">
   <% if current_user %>
       Signed in as <strong><%= current_user.name %></strong>!
@@ -20,9 +20,8 @@
       <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
   <% end %>
 </div>
-
-<img src="/images/logo.png" />
-  <%= yield %>
+<p>_____________________________________________________________</p>
+<img src="/assets/logo.png"/>
 </body>
 </html>
 
