@@ -7,14 +7,15 @@ La radio "PONTE EN ONDA" por mes de aniversario quiere regalar a todos sus oyent
 				
 User Story
 
--	Como "RADIO PONTE EN ONDA" deseo informar a los usuarios de facebook y twitter la ubicacion de las Caravanas de Premios.	
+-	Como "RADIO PONTE EN ONDA" deseo informar a los usuarios de twitter la ubicacion de las Caravanas de Premios.	
 -	Como "Suscriptor" deseo estar informado sobre la ubicacion de las Caravanas de Premios.	
--	Como "Administrador" deseo que mi cuenta sea autentificada atravez del facebook de la radio.			
+-	Como "Administrador" deseo que mi cuenta sea autentificada atravez del Twitter de la radio.			
+
 Criterios de aceptacion
 
--	El administrador sera capaz de iniciar sesion al sistema con su cuenta de Facebook
--	El adminidtrador sera capaz de registrar las caravanas 
--	El adminidtrador sera capaz de selecionar la caravana y enviarla via Facebook y Twiter con un solo boton	
+-	El administrador sera capaz de iniciar sesion al sistema con su cuenta de Twitter
+-	El administrador sera capaz de registrar las caravanas 
+-	El administrador sera capaz de selecionar la caravana y enviarla via a todos sus seguidores via Twiter con un solo boton	
 
 Mockups		
 
@@ -30,4 +31,4 @@ URL:	https://github.com/pvaleso/PremiosOnda
 
 HEROKU 
 
-URL:	http://caravanaonda.herokuapp.com/			
+URL:	http://rpeo.herokuapp.com/			
